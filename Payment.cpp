@@ -7,15 +7,15 @@ usingnamespace std;
 
 Payment::Payment()
 {
-p_ID = 0;
-strcpy(p_type,"");
-p_Amount = 0;
+P_ID = 0;
+strcpy(P_type,"");
+P_Amount = 0;
 }
-Payment::Payment(int p_Id,char P_type[],char p_Amount[]);
+Payment::Payment(int p_Id,char p_type[],char p_Amount[]);
 {
-p_ID = p_ID ;
-strcpy(p_type, "p_type");
- p_Amount = p_Amount;
+P_ID = p_ID ;
+strcpy(P_type, "p_type");
+ P_Amount = p_Amount;
 }
 void Payment::checkPayment(Order*p)
 {
